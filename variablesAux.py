@@ -7,4 +7,4 @@ getDate = datetime.now()
 tipoConta = 'I'
 qtdTitular = 1
 tipoTitular = 2
-sistema = 'sistema'
+sistema = 'CC'

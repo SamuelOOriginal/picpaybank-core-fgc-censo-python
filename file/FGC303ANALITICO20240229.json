@@ -1,0 +1,242 @@
+{
+	"codigoTransacao": "97F72E7E-F51A-47F1-BC58-C5D53AB6F9AD",
+	"data": {
+		"dataBase": "20240229",
+		"contato": {
+			"nome": "Marcelo Rosas Betine",
+			"telefone": "1123303301",
+			"email": "marcelo.betine@original.com.br"
+		},
+		"versaoLeiaute": "1",
+		"cnpjConglomerado": "92894922000108",
+		"nomeConglomerado": "Banco Original",
+		"emissores": [
+			{
+				"cnpjEmissor": "09516419000175",
+				"bancoEmissor": "Picpay Bank - Banco Multiplo S.A.",
+				"contas": [
+					{
+						"agencia": "00001",
+						"digitoAgencia": "9",
+						"numeroConta": "00000000000000100005",
+						"digitoConta": "0",
+						"identificacaoCliente": "",
+						"tipoConta": "I",
+						"quantidadeTitulares": 1,
+						"idTipoTitularidade": 2,
+						"endereco": {
+							"logradouro": "AVENIDA MANUEL BANDEIRA 291",
+							"numero": "291",
+							"complemento": "BLOCO A",
+							"bairro": "VILA LEOPOLDINA",
+							"cidade": "SAO PAULO",
+							"estado": "SP",
+							"cep": "05317020"
+						},
+						"titulares": [
+							{
+								"nomeCliente": "PICPAY INSTITUICAO DE PAGAMENTO S/A",
+								"documentoCliente": "22896431000110",
+								"isencaoIR": "N",
+								"dataNascimentoCriacaoFundacao": "20150710"
+							}
+						],
+						"produtos": [
+							{
+								"idProduto": 1,
+								"instrumentosFinanceiros": [
+									{
+										"codigoInstrumentoFinanceiro": "000000100005",
+										"dataAquisicao": "20220706",
+										"dataVencimento": "0",
+										"quantidadeEmitida": 0,
+										"quantidadeDataBase": 0,
+										"valorEmitido": 0.00,
+										"valorAtualDataBase": 9414565.66,
+										"valorBloqueio": 0.00
+									}
+								]
+							}
+						]
+					},
+					{
+						"agencia": "00001",
+						"digitoAgencia": "9",
+						"numeroConta": "00000000000000300004",
+						"digitoConta": "0",
+						"identificacaoCliente": "",
+						"tipoConta": "I",
+						"quantidadeTitulares": 1,
+						"idTipoTitularidade": 2,
+						"endereco": {
+							"logradouro": "AVENIDA BRIGADEIRO FARIA LIMA, 2113",
+							"numero": "2113",
+							"complemento": "",
+							"bairro": "JARDIM PAULISTANO",
+							"cidade": "SAO PAULO",
+							"estado": "SP",
+							"cep": "01452001"
+						},
+						"titulares": [
+							{
+								"nomeCliente": "CREDNOVO S DE E ENTRE PESSOAS S.A",
+								"documentoCliente": "38146949000177",
+								"isencaoIR": "N",
+								"dataNascimentoCriacaoFundacao": "20200819"
+							}
+						],
+						"produtos": [
+							{
+								"idProduto": 1,
+								"instrumentosFinanceiros": [
+									{
+										"codigoInstrumentoFinanceiro": "000000300004",
+										"dataAquisicao": "20220922",
+										"dataVencimento": "0",
+										"quantidadeEmitida": 0,
+										"quantidadeDataBase": 0,
+										"valorEmitido": 0.00,
+										"valorAtualDataBase": 0.90,
+										"valorBloqueio": 0.00
+									}
+								]
+							}
+						]
+					},
+					{
+						"agencia": "00001",
+						"digitoAgencia": "9",
+						"numeroConta": "00000000000000400009",
+						"digitoConta": "0",
+						"identificacaoCliente": "",
+						"tipoConta": "I",
+						"quantidadeTitulares": 1,
+						"idTipoTitularidade": 2,
+						"endereco": {
+							"logradouro": "PRAIA BOTAFOGO 228",
+							"numero": "228",
+							"complemento": "SALA 907",
+							"bairro": "BOTAFOGO",
+							"cidade": "RIO DE JANEIRO",
+							"estado": "RJ",
+							"cep": "22250906"
+						},
+						"titulares": [
+							{
+								"nomeCliente": "FUNDO DE I E D C NAO PADRONIZAD",
+								"documentoCliente": "32527650000186",
+								"isencaoIR": "S",
+								"dataNascimentoCriacaoFundacao": "20190109"
+							}
+						],
+						"produtos": [
+							{
+								"idProduto": 1,
+								"instrumentosFinanceiros": [
+									{
+										"codigoInstrumentoFinanceiro": "000000400009",
+										"dataAquisicao": "20221110",
+										"dataVencimento": "0",
+										"quantidadeEmitida": 0,
+										"quantidadeDataBase": 0,
+										"valorEmitido": 0.00,
+										"valorAtualDataBase": 17814805.53,
+										"valorBloqueio": 0.00
+									}
+								]
+							}
+						]
+					},
+					{
+						"agencia": "00001",
+						"digitoAgencia": "9",
+						"numeroConta": "00000000000000500003",
+						"digitoConta": "0",
+						"identificacaoCliente": "",
+						"tipoConta": "I",
+						"quantidadeTitulares": 1,
+						"idTipoTitularidade": 2,
+						"endereco": {
+							"logradouro": "AVENIDA MANUEL BANDEIRA, 291",
+							"numero": "291",
+							"complemento": "BLOCO A",
+							"bairro": "VILA LEOPOLDINA",
+							"cidade": "SAO PAULO",
+							"estado": "SP",
+							"cep": "05317020"
+						},
+						"titulares": [
+							{
+								"nomeCliente": "GUIABOLSO PAGAMENTOS LTDA",
+								"documentoCliente": "23829172000178",
+								"isencaoIR": "N",
+								"dataNascimentoCriacaoFundacao": "20151211"
+							}
+						],
+						"produtos": [
+							{
+								"idProduto": 1,
+								"instrumentosFinanceiros": [
+									{
+										"codigoInstrumentoFinanceiro": "000000500003",
+										"dataAquisicao": "20221128",
+										"dataVencimento": "0",
+										"quantidadeEmitida": 0,
+										"quantidadeDataBase": 0,
+										"valorEmitido": 0.00,
+										"valorAtualDataBase": 2000000.00,
+										"valorBloqueio": 0.00
+									}
+								]
+							}
+						]
+					},
+					{
+						"agencia": "00001",
+						"digitoAgencia": "9",
+						"numeroConta": "00000000000000600008",
+						"digitoConta": "0",
+						"identificacaoCliente": "",
+						"tipoConta": "I",
+						"quantidadeTitulares": 1,
+						"idTipoTitularidade": 2,
+						"endereco": {
+							"logradouro": "AVENIDA MANUEL BANDEIRA, 291",
+							"numero": "291",
+							"complemento": "COND ATLAS",
+							"bairro": "VILA LEOPOLDINA",
+							"cidade": "SAO PAULO",
+							"estado": "SP",
+							"cep": "05317020"
+						},
+						"titulares": [
+							{
+								"nomeCliente": "GUIABOLSO F C B E SERVICOS LTDA",
+								"documentoCliente": "15674094000151",
+								"isencaoIR": "N",
+								"dataNascimentoCriacaoFundacao": "20120524"
+							}
+						],
+						"produtos": [
+							{
+								"idProduto": 1,
+								"instrumentosFinanceiros": [
+									{
+										"codigoInstrumentoFinanceiro": "000000600008",
+										"dataAquisicao": "20221130",
+										"dataVencimento": "0",
+										"quantidadeEmitida": 0,
+										"quantidadeDataBase": 0,
+										"valorEmitido": 0.00,
+										"valorAtualDataBase": 28351.46,
+										"valorBloqueio": 0.00
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
