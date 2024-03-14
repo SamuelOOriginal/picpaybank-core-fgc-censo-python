@@ -1,7 +1,7 @@
 import json
 import os.path
 import shutil
-
+import re
 from inserts import gerar_insert_titular, gerar_insert_conta, gerar_insert_produto, gerar_insert_endereco
 from datetime import datetime
 
@@ -43,17 +43,24 @@ def runCode():
                 data = json.load(f)
 
             for conta in data['data']['emissores'][0]['contas']:
+
+                if len(conta['numeroConta']) >= 12:
+                    conta['numeroConta'] = "".join(conta['numeroConta'][-12:])
+
+                    print(conta['numeroConta'])
+                else:
+                    print('deu certo')
+
                 cod_agencia = conta['agencia']
                 data_base = data['data']['dataBase']
 
                 data_base = datetime.strptime(data_base, "%Y%m%d").strftime("%Y-%m-%d")
 
                 conglomerado = data['data']['cnpjConglomerado']
-                nro_conta = conta['numeroConta']
 
                 insert_conta = gerar_insert_conta(conta, data_base, cod_agencia, conglomerado)
                 insert_titular = gerar_insert_titular(conta['titulares'][0], data_base, cod_agencia, conglomerado,
-                                                      nro_conta)
+                                                      conta['numeroConta'])
                 insert_produto = gerar_insert_produto(conta['produtos'][0], conta, conglomerado, data_base, cod_agencia)
                 insert_endereco = gerar_insert_endereco(conta['endereco'], conta, data_base, cod_agencia, conglomerado)
 

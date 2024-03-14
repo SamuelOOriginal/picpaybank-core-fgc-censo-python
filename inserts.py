@@ -26,12 +26,13 @@ def gerar_insert_titular(titular, data_base, cod_agencia, cnpjConglomerado, nro_
         '{titular['isencaoIR']}',
         '{titular['dataNascimentoCriacaoFundacao']}',
         '{user}',
-        '{getDate}'
+        {getDate}
     );
     """
 
 
 def gerar_insert_conta(conta, data_base, cod_agencia, cnpjConglomerado):
+    identificacao_cliente = conta['identificacaoCliente'] if conta['identificacaoCliente'] else ""
     return f"""
     INSERT INTO FGC_CONTAS (
         DATA_BASE,
@@ -39,13 +40,13 @@ def gerar_insert_conta(conta, data_base, cod_agencia, cnpjConglomerado):
         SISTEMA,
         CODAGENCIA,
         NROCONTA,
-        DIGITO_CONTA,
+        DG_CONTA,
         USUARIO,
         TIPO_CONTA,
         QTD_TITULAR,
         TIPO_TITULARIDADE,
-        DATAATUALIZACAO,
-        IDENTIFICACAO_CLIENTE
+        IDENTIFICACAO_CLIENTE,
+        DATAATUALIZACAO
     ) VALUES (
         '{data_base}',
         '{cnpjConglomerado}',
@@ -57,8 +58,9 @@ def gerar_insert_conta(conta, data_base, cod_agencia, cnpjConglomerado):
         '{conta['tipoConta']}',
         {conta['quantidadeTitulares']},
         {conta['idTipoTitularidade']},
-        '{getDate}',
-        '{conta['identificacaoCliente']}'
+        '{identificacao_cliente}',
+        {getDate}
+
     );
     """
 
@@ -99,7 +101,7 @@ def gerar_insert_produto(produto, conta, cnpjConglomerado, data_base, cod_agenci
         {produto[inst_fin][0]['valorAtualDataBase']},
         {produto[inst_fin][0]['valorBloqueio']},
         '{user}',
-        '{getDate}'
+        {getDate}
     );
     """
 
@@ -133,6 +135,6 @@ def gerar_insert_endereco(endereco, conta, data_base, cod_agencia, cnpjConglomer
         '{endereco['estado']}',
         '{endereco['cep']}',
         '{user}',
-        '{getDate}',
+        {getDate}
     );
   """
